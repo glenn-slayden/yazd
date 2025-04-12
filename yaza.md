@@ -168,7 +168,7 @@ DUP                 ; duplicated data operator
 ? :                 ; ternery operator
 ```
 
-All numeric expressions are evaluated as 64-bit signed integers.  An error will be generated if the final resulting value does fit in the target operand.  For boolean (aka logical) operands, zero is treated as false and any non-zero value is treated as true.
+All numeric expressions are evaluated as 64-bit signed integers.  An error will be generated if the final resulting value doesn't fit in the target operand.  For boolean (aka logical) operands, zero is treated as false and any non-zero value is treated as true.
 
 Note that parentheses are used for two purposes - expression group and pointer dereferencing.
 
